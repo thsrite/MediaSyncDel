@@ -42,7 +42,7 @@ using选择web:post
 
 <img width="1223" alt="image" src="https://user-images.githubusercontent.com/54088512/227707540-4444d27b-d052-47b1-9ab5-fd70699fe362.png">
 
-### 6.nastool开启 媒体库同步删除 插件
+### 5.nastool开启 媒体库同步删除 插件
 
 配置完成之后，emby上直接删除媒体后，nt会相应删除对应的历史记录
 
