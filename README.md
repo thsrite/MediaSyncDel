@@ -7,6 +7,8 @@
 ### 3.下载nastool_plugin放到宿主机/mnt/user/appdata/emby下
 注意：进入emby容器/config/nastool_plugin/下执行 chmod +x nt.sh
 ### 4.修改nastool_plugin/nt.sh脚本里面NASTOOL_WEBHOOK_URL为自己的nastool链接
+<img width="627" alt="image" src="https://user-images.githubusercontent.com/54088512/227705153-d35e872a-ade5-42d8-8b45-1f9bbb30dcba.png">
+
 ### 5.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
 1）删除电影配置
 
