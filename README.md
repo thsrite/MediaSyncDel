@@ -1,50 +1,48 @@
 # emby_sync_del_nt
 
-### 1.emby安装ScripterX插件https://github.com/AnthonyMusgrove/Emby-ScripterX
+### 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
 
 ### 2.emby容器挂载 /config:/mnt/user/appdata/emby
 ### 3.下载nastool_plugin放到宿主机/mnt/user/appdata/emby下
-注意：进入emby容器/config/nastool_plugin/下执行 chmod +x nt.sh
-### 4.修改nastool_plugin/nt.sh脚本里面NASTOOL_WEBHOOK_URL为自己的nastool链接
-### 5.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
+<img width="769" alt="image" src="https://user-images.githubusercontent.com/54088512/227707707-78edc0e6-6b11-4c52-8d12-de341b9fb63c.png">
+
+### 4.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
 1）删除电影配置
 
-Run设置为你容器里面脚本所在路径/config/nastool_plugin/nt.sh Movie
+Run设置为你自己的nt地址http://192.168.31.184:3000/emby
 
-using选择/bin/sh
+using选择web:post
 
-"%series.name%" "%item.path%" "%series.meta.tmdb%" "%season.number%" "%episode.number%"
-
-<img width="1225" alt="image" src="https://user-images.githubusercontent.com/54088512/227704712-19bde916-d242-4ab0-856d-7092d646c9ae.png">
+/config/nastool_plugin/movie_remove.json
 
 2）删除整个电视剧配置（包含多季，一起删除）
 
-Run设置为你容器里面脚本所在路径/config/nastool_plugin/nt.sh Series
+Run设置为你自己的nt地址http://192.168.31.184:3000/emby
 
-using选择/bin/sh
+using选择web:post
 
-"%item.name%"  "%item.path%"  "%item.meta.tmdb%"
+/config/nastool_plugin/series_remove.json
 
 3）删除电视剧某季配置（删除一整季，一起删除）
 
-Run设置为你容器里面脚本所在路径/config/nastool_plugin/nt.sh Season
+Run设置为你自己的nt地址http://192.168.31.184:3000/emby
 
-using选择/bin/sh
+using选择web:post
 
-"%series.name%" "%item.path%" "%series.meta.tmdb%"  "%season.number%"
+/config/nastool_plugin/season_remove.json
 
 4）删除电视剧某季某集配置（删除单集）
 
-Run设置为你容器里面脚本所在路径/config/nastool_plugin/nt.sh Episode
+Run设置为你自己的nt地址http://192.168.31.184:3000/emby
 
-using选择/bin/sh
+using选择web:post
 
-"%series.name%" "%item.path%" "%series.meta.tmdb%" "%season.number%" "%episode.number%"
+/config/nastool_plugin/episode_remove.json
 
-<img width="1201" alt="image" src="https://user-images.githubusercontent.com/54088512/227704886-d7845371-8016-4da5-9e64-d1c4807f0c24.png">
+<img width="1223" alt="image" src="https://user-images.githubusercontent.com/54088512/227707540-4444d27b-d052-47b1-9ab5-fd70699fe362.png">
 
-### 6.nastool开启 媒体库同步删除 插件
+### 5.nastool开启 媒体库同步删除 插件
 
 配置完成之后，emby上直接删除媒体后，nt会相应删除对应的历史记录
 
