@@ -11,6 +11,9 @@ emby4.7以下版本可以用emby4.7版本试下
 
 ### 2.emby容器挂载 /config:/mnt/user/appdata/emby
 ### 3.下载nastool_plugin放到宿主机/mnt/user/appdata/emby下
+
+注意容器内文件权限！chown -R uid:gid /config/nastool_plugin
+
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/54088512/227707707-78edc0e6-6b11-4c52-8d12-de341b9fb63c.png">
 
 ### 4.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
