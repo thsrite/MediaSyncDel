@@ -1,0 +1,8 @@
+{
+    "event_type":"media_del",
+    "media_type":"%item.type%",
+    "media_name":"%item.name%",
+    "media_path":"%item.path%",
+    "tmdb_id":"%item.meta.tmdb%"
+}
+

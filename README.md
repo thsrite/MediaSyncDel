@@ -1,5 +1,9 @@
 # emby_sync_del_nt
 
+### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
+### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
+### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
+
 ### 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
 
