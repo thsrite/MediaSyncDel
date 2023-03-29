@@ -4,6 +4,8 @@
 ### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
 ### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
 
+emby4.7以下版本可以用emby4.7版本试下
+
 ### 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
 
