@@ -17,6 +17,8 @@ emby4.7以下版本可以用emby4.7版本试下
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/54088512/227707707-78edc0e6-6b11-4c52-8d12-de341b9fb63c.png">
 
 ### 4.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
+![image](https://user-images.githubusercontent.com/54088512/228715789-51a01a10-9dc6-40f2-b8cd-fd6ccb5f6b24.png)
+
 1）删除电影配置
 
 Run设置为你自己的nt地址http://192.168.31.184:3000/emby
