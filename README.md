@@ -10,6 +10,8 @@ emby4.7以下版本可以用emby4.7版本试下
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
+插件市场没有的，自己手动安装
+<img width="847" alt="image" src="https://user-images.githubusercontent.com/54088512/229109971-7e321835-c3af-4a40-af65-029bbceb383b.png">
 
 ## 2.emby容器挂载 /config:/mnt/user/appdata/emby
 ## 3.下载nastool_plugin放到宿主机/mnt/user/appdata/emby下
