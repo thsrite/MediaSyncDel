@@ -17,7 +17,11 @@ emby4.7以下版本可以用emby4.7版本试下
 ## 3.下载nastool_plugin放到宿主机/mnt/user/appdata/emby下
 
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/54088512/227707707-78edc0e6-6b11-4c52-8d12-de341b9fb63c.png">
+群晖套件文件的路径是：/volume1/@appstore/ 用ssh登陆后cd到这个路径 下面就是你所有套件的文件夹。volume表示存储池，如果你装套件的时候选的是第二存储池，这里就是volume2，以此类推
 
+威联通nas的共享文件在/share文件夹下。
+
+自行研究
 ## 4.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
 ![image](https://user-images.githubusercontent.com/54088512/228715789-51a01a10-9dc6-40f2-b8cd-fd6ccb5f6b24.png)
 
