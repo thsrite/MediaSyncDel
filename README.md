@@ -6,7 +6,6 @@
 
 #### 配置不一样的原因是，3.*版本的Scripter-X传参不自带引号，而4.*版本的自带引号。不在nastool做兼容了，选择不同配置即可。
 
-emby4.7以下版本可以用emby4.7版本试下
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
