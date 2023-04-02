@@ -1,8 +1,8 @@
 # emby_sync_del_nt
 
-### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
-### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
-### 请根据自己emby和Scripter-X版本选择不同的nastool_plugin！
+### 请根据自己Scripter-X版本选择不同的nastool_plugin！
+### 请根据自己Scripter-X版本选择不同的nastool_plugin！
+### 请根据自己Scripter-X版本选择不同的nastool_plugin！
 
 #### 配置不一样的原因是，3.*版本的Scripter-X传参不自带引号，而4.*版本的自带引号。不在nastool做兼容了，选择不同配置即可。
 
