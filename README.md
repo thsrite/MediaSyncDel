@@ -10,7 +10,7 @@
 ### get和post方式自行选择
 [ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
 
-[ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置简单
+[ScripterX-GET方式(nt代码未上线，暂无法使用)](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置简单
 
 ## 3.nastool开启 媒体库同步删除 插件
 
