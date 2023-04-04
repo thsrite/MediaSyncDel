@@ -51,3 +51,5 @@ using选择web:post
 /config/nastool_plugin/episode_remove.json
 
 <img width="1223" alt="image" src="https://user-images.githubusercontent.com/54088512/227707540-4444d27b-d052-47b1-9ab5-fd70699fe362.png">
+
+### 如开启了apikey校验，自行在上述地址末尾添加&apikey=
