@@ -1,17 +1,17 @@
 # emby_sync_del_nt
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
-推荐手动安装 [3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/EmbyScripterX3.0.5.5.zip)
 
 <img width="847" alt="image" src="https://user-images.githubusercontent.com/54088512/229109971-7e321835-c3af-4a40-af65-029bbceb383b.png">
 
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
 
-## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
+## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增脚本
 ### get和post方式自行选择
-[ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
+[ScripterX-GET方式(nt代码未上线，暂无法使用)](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件，Scripter 3 4版本通用
 
-[ScripterX-GET方式(nt代码未上线，暂无法使用)](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置简单
+[ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
+推荐手动安装 [3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/EmbyScripterX3.0.5.5.zip)
 
 ## 3.nastool开启 媒体库同步删除 插件
 
