@@ -12,6 +12,8 @@ http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_nam
 
 using选择web:get
 
+Movie Series
+
 ![image](https://user-images.githubusercontent.com/54088512/229737235-17dbf546-f6c5-4bae-b553-00d24e38e6f9.png)
 
 #### 2）删除剧集单季或者某集配置
@@ -21,6 +23,8 @@ Run设置为你自己的nt地址:
 http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%series.name%&media_path=%item.path%&tmdb_id=%series.meta.tmdb%&season_num=%season.number%&episode_num=%episode.number%
 
 using选择web:get
+
+Season Episode
 
 ![image](https://user-images.githubusercontent.com/54088512/229737295-2f87a699-a719-4790-9014-474079277033.png)
 
