@@ -1,10 +1,11 @@
 # emby_sync_del_nt
 
-## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX).   [3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/EmbyScripterX3.0.5.5.zip)
-<img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
-插件市场没有的，自己手动安装
+## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
+推荐手动安装 [3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/EmbyScripterX3.0.5.5.zip)
+
 <img width="847" alt="image" src="https://user-images.githubusercontent.com/54088512/229109971-7e321835-c3af-4a40-af65-029bbceb383b.png">
 
+<img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
 
 ## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增4个脚本
 ### get和post方式自行选择
