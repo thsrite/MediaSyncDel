@@ -10,7 +10,11 @@
 ### get和post方式按照下方版本自行选择
 [ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
+懒人配置，[下载GET配置文件直接覆盖/plugins/configurations/EmbyScripterX.xml](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)
+
 [ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
+
+懒人配置，[下载POST配置文件直接覆盖/plugins/configurations/EmbyScripterX.xml](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)
 
 ### 可用版本（欢迎补充）
 | Emby                 | Scripter X | GET OR POST |
@@ -21,7 +25,8 @@
 | emby4.7              | 4          | GET or POST |
 | emby4.7              | 3          | POST        |
 
-[3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/EmbyScripterX3.0.5.5.zip)
+[3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX3/EmbyScripterX.dll)
+[4.0.0.8插件下载](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX4/EmbyScripterX.dll)
 
 ## 3.nastool开启 媒体库同步删除 插件
 
