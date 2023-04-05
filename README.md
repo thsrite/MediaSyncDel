@@ -38,6 +38,6 @@ nt插件上可设置是否要删除源文件，可设置排除路径（emby挂�
 #### （7）有位朋友不生效后重启了下nastool生效了……
 #### （8）看硬链接所在目录是否多了几个空格。。。  例如 /data/Movie          /喜剧电影
 #### （9）注意是Movie Series Season Episode，注意大小写。。
-#### （10）nastools日志提示“Emby同步删除-%series.name%同步删除失败，未获取到TMDB ID”，emby4.7版本用post方式或者升级4.8用get
+#### （10）nastools日志提示“Emby同步删除-%series.name%同步删除失败，未获取到TMDB ID”，看上面可用版本换版本
 #### （11）不生效的话，nastool基础设置日志调整为DEBUG，看容器日志
 ![b8bd19b9beeca6579b6d5238a4659a4](https://user-images.githubusercontent.com/54088512/228716464-964ca745-3a1f-47c4-ac9f-250306d11714.jpg)
