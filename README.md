@@ -25,6 +25,7 @@
 | emby4.7              | 4          | GET or POST |
 | emby4.7              | 3          | POST        |
 
+### 插件手动下载，放入/plugins/重启emby
 [3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX3/EmbyScripterX.dll)
 [4.0.0.8插件下载](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX4/EmbyScripterX.dll)
 
