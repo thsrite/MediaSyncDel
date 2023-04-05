@@ -13,12 +13,12 @@
 ### ScripterX-GET方式
 [手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
-懒人配置，下载[GET配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml
+[//]: # (懒人配置，下载[GET配置文件]&#40;https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml&#41;直接覆盖/plugins/configurations/EmbyScripterX.xml)
 
 ### ScripterX-POST方式
 [手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
 
-懒人配置，下载[POST配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml
+[//]: # (懒人配置，下载[POST配置文件]&#40;https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml&#41;直接覆盖/plugins/configurations/EmbyScripterX.xml)
 
 ### 可用版本（其他自行测试，欢迎补充）
 | Emby                 | Scripter X | GET OR POST |
