@@ -11,13 +11,16 @@
 
 ## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增脚本
 ### get和post方式按照下方版本自行选择
-手动配置，[ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
-懒人配置，[下载GET配置文件直接覆盖/plugins/configurations/EmbyScripterX.xml](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)
+#### ScripterX-GET方式
+[手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
-手动配置，[ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
+懒人配置，下载[GET配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml
 
-懒人配置，[下载POST配置文件直接覆盖/plugins/configurations/EmbyScripterX.xml](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)
+#### ScripterX-GET方式
+[手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
+
+懒人配置，下载[POST配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml
 
 ### 可用版本（欢迎补充）
 | Emby                 | Scripter X | GET OR POST |
