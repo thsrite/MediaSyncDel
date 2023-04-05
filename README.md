@@ -8,10 +8,14 @@
 
 ## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增脚本
 ### get和post方式自行选择
-[ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件，emby4.8以上版本Scripter 3 4版本通用，emby4.7自测，不行就用POST方式
+[ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
+##### 可用版本
+emby4.8以上版本ScripterX 3 4版本通用
 
 [ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
 推荐手动安装 [3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/EmbyScripterX3.0.5.5.zip)
+##### 可用版本
+emby4.8.0.21及以下版本 ScripterX 3 4版本选择不同的参数文件
 
 ## 3.nastool开启 媒体库同步删除 插件
 
