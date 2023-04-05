@@ -2,17 +2,20 @@
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 
-<img width="847" alt="image" src="https://user-images.githubusercontent.com/54088512/229109971-7e321835-c3af-4a40-af65-029bbceb383b.png">
-
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
+
+### 插件手动下载，放入/plugins/重启emby
+[3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX3/EmbyScripterX.dll)
+
+[4.0.0.8插件下载](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX4/EmbyScripterX.dll)
 
 ## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增脚本
 ### get和post方式按照下方版本自行选择
-[ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
+手动配置，[ScripterX-GET方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
 懒人配置，[下载GET配置文件直接覆盖/plugins/configurations/EmbyScripterX.xml](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)
 
-[ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
+手动配置，[ScripterX-POST方式](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
 
 懒人配置，[下载POST配置文件直接覆盖/plugins/configurations/EmbyScripterX.xml](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)
 
@@ -24,10 +27,6 @@
 | emby4.8-4.8.0.21     | 3 or 4     | GET or POST |
 | emby4.7              | 4          | GET or POST |
 | emby4.7              | 3          | POST        |
-
-### 插件手动下载，放入/plugins/重启emby
-[3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX3/EmbyScripterX.dll)
-[4.0.0.8插件下载](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX4/EmbyScripterX.dll)
 
 ## 3.nastool开启 媒体库同步删除 插件
 
