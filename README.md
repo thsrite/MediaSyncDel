@@ -29,6 +29,6 @@ nt插件上可设置是否要删除源文件，可设置排除路径（emby挂�
 #### （6）注意容器内文件权限！chown -R uid:gid /config/nastool_plugin
 #### （7）有位朋友不生效后重启了下nastool生效了……
 #### （8）看硬链接所在目录是否多了几个空格。。。  例如 /data/Movie          /喜剧电影
-####  (9)注意是Movie Series Season Episode，注意大小写。。
+#### （9）注意是Movie Series Season Episode，注意大小写。。
 #### （10）不生效的话，nastool基础设置日志调整为DEBUG，看容器日志
 ![b8bd19b9beeca6579b6d5238a4659a4](https://user-images.githubusercontent.com/54088512/228716464-964ca745-3a1f-47c4-ac9f-250306d11714.jpg)
