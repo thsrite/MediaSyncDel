@@ -26,7 +26,7 @@
 | emby4.8.0.21以上版本 | 4          | GET         |
 | emby4.8.0.21以上版本 | 3          | GET or POST |
 | emby4.8-4.8.0.21     | 3 or 4     | GET or POST |
-| emby4.7              | 4          | GET or POST |
+| emby4.7              | 4          | GET  |
 | emby4.7              | 3          | POST        |
 
 ## 3.nastool开启 媒体库同步删除 插件
