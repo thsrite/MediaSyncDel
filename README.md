@@ -10,14 +10,12 @@
 [4.0.0.8插件下载](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX4/EmbyScripterX.dll)
 
 ## 2.设置emby ScripterX插件,找到onMediaItemRemoved，点左侧新增脚本
-### get和post方式按照下方版本自行选择
-
-#### ScripterX-GET方式
+### ScripterX-GET方式
 [手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
 懒人配置，下载[GET配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml
 
-#### ScripterX-GET方式
+### ScripterX-POST方式
 [手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
 
 懒人配置，下载[POST配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml
