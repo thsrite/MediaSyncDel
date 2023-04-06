@@ -2,32 +2,32 @@
 <PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PluginOptions>
     <Enabled>true</Enabled>
-    <onAuthenticationFailed_Enabled>false</onAuthenticationFailed_Enabled>
-    <onAuthenticationSuccess_Enabled>false</onAuthenticationSuccess_Enabled>
-    <onLibraryScanComplete_Enabled>false</onLibraryScanComplete_Enabled>
-    <onMediaItemAdded_Enabled>false</onMediaItemAdded_Enabled>
-    <onMediaItemAddedComplete_Enabled>false</onMediaItemAddedComplete_Enabled>
+    <onAuthenticationFailed_Enabled>true</onAuthenticationFailed_Enabled>
+    <onAuthenticationSuccess_Enabled>true</onAuthenticationSuccess_Enabled>
+    <onLibraryScanComplete_Enabled>true</onLibraryScanComplete_Enabled>
+    <onMediaItemAdded_Enabled>true</onMediaItemAdded_Enabled>
+    <onMediaItemAddedComplete_Enabled>true</onMediaItemAddedComplete_Enabled>
     <onMediaItemRemoved_Enabled>true</onMediaItemRemoved_Enabled>
-    <onMediaItemUpdated_Enabled>false</onMediaItemUpdated_Enabled>
-    <onPlaybackStart_Enabled>false</onPlaybackStart_Enabled>
-    <onPlaybackStopped_Enabled>false</onPlaybackStopped_Enabled>
-    <onScheduledTask_Enabled>false</onScheduledTask_Enabled>
-    <onSessionEnded_Enabled>false</onSessionEnded_Enabled>
-    <onSessionStarted_Enabled>false</onSessionStarted_Enabled>
-    <onCameraImageUploaded_Enabled>false</onCameraImageUploaded_Enabled>
-    <onLiveTVRecordingStart_Enabled>false</onLiveTVRecordingStart_Enabled>
-    <onLiveTVRecordingEnded_Enabled>false</onLiveTVRecordingEnded_Enabled>
-    <onScheduledTaskStart_Enabled>false</onScheduledTaskStart_Enabled>
-    <onScheduledTaskEnded_Enabled>false</onScheduledTaskEnded_Enabled>
-    <onPlaybackProgress_Enabled>false</onPlaybackProgress_Enabled>
-    <onUserConfigurationUpdated_Enabled>false</onUserConfigurationUpdated_Enabled>
-    <onUserPasswordChanged_Enabled>false</onUserPasswordChanged_Enabled>
-    <onUserLockedOut_Enabled>false</onUserLockedOut_Enabled>
-    <onUserCreated_Enabled>false</onUserCreated_Enabled>
-    <onUserDeleted_Enabled>false</onUserDeleted_Enabled>
-    <onRecordingTimerCreated_Enabled>false</onRecordingTimerCreated_Enabled>
-    <onRecordingTimerCancelled_Enabled>false</onRecordingTimerCancelled_Enabled>
-    <onUserDataSaved_Enabled>false</onUserDataSaved_Enabled>
+    <onMediaItemUpdated_Enabled>true</onMediaItemUpdated_Enabled>
+    <onPlaybackStart_Enabled>true</onPlaybackStart_Enabled>
+    <onPlaybackStopped_Enabled>true</onPlaybackStopped_Enabled>
+    <onScheduledTask_Enabled>true</onScheduledTask_Enabled>
+    <onSessionEnded_Enabled>true</onSessionEnded_Enabled>
+    <onSessionStarted_Enabled>true</onSessionStarted_Enabled>
+    <onCameraImageUploaded_Enabled>true</onCameraImageUploaded_Enabled>
+    <onLiveTVRecordingStart_Enabled>true</onLiveTVRecordingStart_Enabled>
+    <onLiveTVRecordingEnded_Enabled>true</onLiveTVRecordingEnded_Enabled>
+    <onScheduledTaskStart_Enabled>true</onScheduledTaskStart_Enabled>
+    <onScheduledTaskEnded_Enabled>true</onScheduledTaskEnded_Enabled>
+    <onPlaybackProgress_Enabled>true</onPlaybackProgress_Enabled>
+    <onUserConfigurationUpdated_Enabled>true</onUserConfigurationUpdated_Enabled>
+    <onUserPasswordChanged_Enabled>true</onUserPasswordChanged_Enabled>
+    <onUserLockedOut_Enabled>true</onUserLockedOut_Enabled>
+    <onUserCreated_Enabled>true</onUserCreated_Enabled>
+    <onUserDeleted_Enabled>true</onUserDeleted_Enabled>
+    <onRecordingTimerCreated_Enabled>true</onRecordingTimerCreated_Enabled>
+    <onRecordingTimerCancelled_Enabled>true</onRecordingTimerCancelled_Enabled>
+    <onUserDataSaved_Enabled>true</onUserDataSaved_Enabled>
   </PluginOptions>
   <Actions_onAuthenticationFailed />
   <Actions_onAuthenticationSuccess />
@@ -36,58 +36,11 @@
   <Actions_onMediaItemAddedComplete />
   <Actions_onMediaItemRemoved>
     <EmbyScripterXAction>
-      <ActionID>1dcbb3da-883b-4aca-952f-95183dbd3ab0</ActionID>
+      <ActionID>6cea7196-2a76-44d8-a75b-2e43675b3448</ActionID>
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:get</Interpreter>
-      <Script>http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%series.name%&media_path=%item.path%&tmdb_id=%series.meta.tmdb%&season_num=%season.number%&episode_num=%episode.number%</Script>
-      <Parameters />
-      <MacroCommands />
-      <Conditions>
-        <EmbyScripterXActionCondition>
-          <Type>Token</Type>
-          <TokenID>%item.type%</TokenID>
-          <TokenGroup>Item</TokenGroup>
-        </EmbyScripterXActionCondition>
-        <EmbyScripterXActionCondition>
-          <Type>Operator</Type>
-          <Operator>Equals</Operator>
-          <Value>Equals</Value>
-        </EmbyScripterXActionCondition>
-        <EmbyScripterXActionCondition>
-          <Type>Operator</Type>
-          <Operator>TEXTVALUE</Operator>
-          <Value>Season</Value>
-        </EmbyScripterXActionCondition>
-        <EmbyScripterXActionCondition>
-          <Type>Operator</Type>
-          <Operator>OR</Operator>
-          <Value>OR</Value>
-        </EmbyScripterXActionCondition>
-         <EmbyScripterXActionCondition>
-          <Type>Token</Type>
-          <TokenID>%item.type%</TokenID>
-          <TokenGroup>Item</TokenGroup>
-        </EmbyScripterXActionCondition>
-        <EmbyScripterXActionCondition>
-          <Type>Operator</Type>
-          <Operator>Equals</Operator>
-          <Value>Equals</Value>
-        </EmbyScripterXActionCondition>
-        <EmbyScripterXActionCondition>
-          <Type>Operator</Type>
-          <Operator>TEXTVALUE</Operator>
-          <Value>Episode</Value>
-        </EmbyScripterXActionCondition>
-      </Conditions>
-      <CmdParameters />
-    </EmbyScripterXAction>
-    <EmbyScripterXAction>
-      <ActionID>f34ea8fd-2b9e-40e2-85fa-186049281f62</ActionID>
-      <Enabled>false</Enabled>
-      <ActionType>onMediaItemRemoved</ActionType>
-      <Interpreter>web:get</Interpreter>
-      <Script>http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%item.name%&media_path=%item.path%&tmdb_id=%item.meta.tmdb%</Script>
+      <Script>http://localhost:3000/emby?event_type=media_del&amp;media_type=%item.type%&amp;media_name=%item.name%&amp;media_path=%item.path%&amp;tmdb_id=%item.meta.tmdb%&amp;item_isvirtual=%item.isvirtual%</Script>
       <Parameters />
       <MacroCommands />
       <Conditions>
@@ -111,7 +64,7 @@
           <Operator>OR</Operator>
           <Value>OR</Value>
         </EmbyScripterXActionCondition>
-         <EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
           <Type>Token</Type>
           <TokenID>%item.type%</TokenID>
           <TokenGroup>Item</TokenGroup>
@@ -125,6 +78,53 @@
           <Type>Operator</Type>
           <Operator>TEXTVALUE</Operator>
           <Value>Series</Value>
+        </EmbyScripterXActionCondition>
+      </Conditions>
+      <CmdParameters />
+    </EmbyScripterXAction>
+    <EmbyScripterXAction>
+      <ActionID>c88a1dae-02ac-4bd3-b382-a00c89b5f43b</ActionID>
+      <Enabled>false</Enabled>
+      <ActionType>onMediaItemRemoved</ActionType>
+      <Interpreter>web:get</Interpreter>
+      <Script>http://localhost:3000/emby?event_type=media_del&amp;media_type=%item.type%&amp;media_name=%series.name%&amp;media_path=%item.path%&amp;tmdb_id=%series.meta.tmdb%&amp;season_num=%season.number%&amp;episode_num=%episode.number%&amp;item_isvirtual=%item.isvirtual%</Script>
+      <Parameters />
+      <MacroCommands />
+      <Conditions>
+        <EmbyScripterXActionCondition>
+          <Type>Token</Type>
+          <TokenID>%item.type%</TokenID>
+          <TokenGroup>Item</TokenGroup>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>Equals</Operator>
+          <Value>Equals</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>TEXTVALUE</Operator>
+          <Value>Season</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>OR</Operator>
+          <Value>OR</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Token</Type>
+          <TokenID>%item.type%</TokenID>
+          <TokenGroup>Item</TokenGroup>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>Equals</Operator>
+          <Value>Equals</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>TEXTVALUE</Operator>
+          <Value>Episode</Value>
         </EmbyScripterXActionCondition>
       </Conditions>
       <CmdParameters />
@@ -151,5 +151,5 @@
   <Actions_onRecordingTimerCancelled />
   <Actions_onUserDataSaved />
   <InstalledPackages />
-  <Server_Platform>LINUX</Server_Platform>
+  <Server_Platform>WINDOWS</Server_Platform>
 </PluginConfiguration>
