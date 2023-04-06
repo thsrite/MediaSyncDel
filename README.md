@@ -13,12 +13,12 @@
 ### ScripterX-GET方式
 [手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-GET.md)：配置非常简单，不需要添加任何文件。
 
-懒人配置，下载[GET配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml，需手动修改ip端口为自己nastools相应参数
+懒人配置，下载[GET配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_GET/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml，需手动修改ip端口为自己nastools相应参数（需要重启emby生效！）
 
 ### ScripterX-POST方式
 [手动配置](https://github.com/thsrite/emby_sync_del_nt/blob/main/ScripterX-POST.md)：ScripterX版本参数不同
 
-懒人配置，下载[POST配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml，需手动修改配置文件参数、ip端口为自己nastools相应参数
+懒人配置，下载[POST配置文件](https://github.com/thsrite/emby_sync_del_nt/raw/main/ScripterX_config_POST/EmbyScripterX.xml)直接覆盖/plugins/configurations/EmbyScripterX.xml，需手动修改配置文件参数、ip端口为自己nastools相应参数（需要重启emby生效！需要下载手动配置中的参数文件！）
 
 ### 可用版本（其他自行测试，欢迎补充）
 | Emby                 | Scripter X | GET OR POST |
@@ -46,5 +46,6 @@ nt插件上可设置是否要删除源文件，可设置排除路径（emby挂�
 #### （8）看硬链接所在目录是否多了几个空格。。。  例如 /data/Movie          /喜剧电影
 #### （9）注意是Movie Series Season Episode，注意大小写。。
 #### （10）nastools日志提示“Emby同步删除-%series.name%同步删除失败，未获取到TMDB ID”，看上面可用版本换版本
-#### （11）不生效的话，nastools基础设置日志调整为DEBUG，看容器日志(docker logs -f -n 50 nt容器名称)
+#### （11）使用懒人配置不生效的，请重启emby。post懒人配置也需要手动下载参数文件放于指定位置
+#### （12）不生效的话，nastools基础设置日志调整为DEBUG，看容器日志(docker logs -f -n 50 nt容器名称)
 ![b8bd19b9beeca6579b6d5238a4659a4](https://user-images.githubusercontent.com/54088512/228716464-964ca745-3a1f-47c4-ac9f-250306d11714.jpg)
