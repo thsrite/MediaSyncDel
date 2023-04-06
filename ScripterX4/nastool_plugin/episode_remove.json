@@ -5,6 +5,7 @@
     "media_path":%item.path%,
     "tmdb_id":%series.meta.tmdb%,
     "season_num":%season.number%,
-    "episode_num":%episode.number%
+    "episode_num":%episode.number%,
+    "item_isvirtual":%item.isvirtual%
 }
 

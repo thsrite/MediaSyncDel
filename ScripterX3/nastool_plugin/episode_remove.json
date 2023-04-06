@@ -1,10 +1,11 @@
 {
-    "event_type":"media_del",
-    "media_type":"%item.type%",
-    "media_name":"%series.name%",
-    "media_path":"%item.path%",
-    "tmdb_id":"%series.meta.tmdb%",
-    "season_num":"%season.number%",
-    "episode_num":"%episode.number%"
+  "event_type": "media_del",
+  "media_type": "%item.type%",
+  "media_name": "%series.name%",
+  "media_path": "%item.path%",
+  "tmdb_id": "%series.meta.tmdb%",
+  "season_num": "%season.number%",
+  "episode_num": "%episode.number%",
+  "item_isvirtual": "%item.isvirtual%"
 }
 

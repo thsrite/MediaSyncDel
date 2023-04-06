@@ -4,6 +4,7 @@
     "media_name":%series.name%,
     "media_path":%item.path%,
     "tmdb_id":%series.meta.tmdb%,
-    "season_num":%season.number%
+    "season_num":%season.number%,
+    "item_isvirtual":%item.isvirtual%
 }
 

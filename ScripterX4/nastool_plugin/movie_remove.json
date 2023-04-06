@@ -3,6 +3,7 @@
     "media_type":%item.type%,
     "media_name":%item.name%,
     "media_path":%item.path%,
-    "tmdb_id":%item.meta.tmdb%
+    "tmdb_id":%item.meta.tmdb%,
+    "item_isvirtual":%item.isvirtual%
 }
 

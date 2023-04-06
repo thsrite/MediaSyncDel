@@ -8,7 +8,7 @@
 
 Run设置为你自己的nt地址:
 
-http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%item.name%&media_path=%item.path%&tmdb_id=%item.meta.tmdb%
+http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%item.name%&media_path=%item.path%&tmdb_id=%item.meta.tmdb%&item_isvirtual=%item.isvirtual%
 
 using选择web:get
 
@@ -20,7 +20,7 @@ Movie Series
 
 Run设置为你自己的nt地址:
 
-http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%series.name%&media_path=%item.path%&tmdb_id=%series.meta.tmdb%&season_num=%season.number%&episode_num=%episode.number%
+http://localhost:3000/emby?event_type=media_del&media_type=%item.type%&media_name=%series.name%&media_path=%item.path%&tmdb_id=%series.meta.tmdb%&season_num=%season.number%&episode_num=%episode.number%&item_isvirtual=%item.isvirtual%
 
 using选择web:get
 
