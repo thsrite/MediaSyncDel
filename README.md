@@ -1,6 +1,6 @@
 # emby_sync_del_nt
 
-## 入库直接触发删除问题，请安装教程新增item_isvirtual参数
+## 入库直接触发删除问题，更新nastool3.1.4及以上版本，根据安装教程新增item_isvirtual参数
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 
