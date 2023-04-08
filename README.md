@@ -1,5 +1,7 @@
 # emby_sync_del_nt
 
+## 入库直接触发删除问题，请安装教程新增item_isvirtual参数
+
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
