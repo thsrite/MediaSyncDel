@@ -1,6 +1,6 @@
 # emby_sync_del_nt
 
-## [入库直接触发删除问题](https://github.com/thsrite/emby_sync_del_nt/blob/main/issus.md)
+## [入库直接触发删除问题](https://github.com/thsrite/emby_sync_del_nt/blob/main/issues.md)
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 
