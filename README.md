@@ -49,7 +49,7 @@ nt插件上可设置是否要删除源文件，可设置排除路径（emby挂�
 #### （7）有位朋友不生效后重启了下nastools生效了……
 #### （8）看硬链接所在目录是否多了几个空格。。。  例如 /data/Movie          /喜剧电影
 #### （9）注意是Movie Series Season Episode，注意大小写。。
-#### （10）nastools日志提示“Emby同步删除-%series.name%同步删除失败，未获取到TMDB ID”，看上面可用版本换版本
+#### （10）nastools日志提示“Emby同步删除-%series.name%同步删除失败，未获取到TMDB ID”，看上面可用版本换版本或者emby要刮削媒体！！emby要识别到媒体才能获取到tmdbid！！
 #### （11）使用懒人配置不生效的，请重启emby。post懒人配置也需要手动下载参数文件放于指定位置
 #### （12）为防止误删除，新增item_isvirtual参数，请按照配置添加
 #### （13）不生效的话，nastools基础设置日志调整为DEBUG，看容器日志(docker logs -f -n 50 nt容器名称)
