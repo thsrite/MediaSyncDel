@@ -40,8 +40,8 @@
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:post</Interpreter>
-      <Script>http://192.168.31.103:3000/emby</Script>
-      <Parameters>/config/nastool_plugin/episode_remove.json</Parameters>
+      <Script>http://ip:port/api/v1/webhook/?token=moviepilot</Script>
+      <Parameters>/config/moviepilot_plugin/episode_remove.json</Parameters>
       <MacroCommands />
       <Conditions>
         <EmbyScripterXActionCondition>
@@ -67,8 +67,8 @@
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:post</Interpreter>
-      <Script>http://192.168.31.103:3000/emby</Script>
-      <Parameters>/config/nastool_plugin/movie_remove.json</Parameters>
+      <Script>http://ip:port/api/v1/webhook/?token=moviepilot</Script>
+      <Parameters>/config/moviepilot_plugin/movie_remove.json</Parameters>
       <MacroCommands />
       <Conditions>
         <EmbyScripterXActionCondition>
@@ -94,8 +94,8 @@
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:post</Interpreter>
-      <Script>http://192.168.31.103:3000/emby</Script>
-      <Parameters>/config/nastool_plugin/series_remove.json</Parameters>
+      <Script>http://ip:port/api/v1/webhook/?token=moviepilot</Script>
+      <Parameters>/config/moviepilot_plugin/series_remove.json</Parameters>
       <MacroCommands />
       <Conditions>
         <EmbyScripterXActionCondition>
@@ -121,8 +121,8 @@
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:post</Interpreter>
-      <Script>http://192.168.31.103:3000/emby</Script>
-      <Parameters>/config/nastool_plugin/season_remove.json</Parameters>
+      <Script>http://ip:port/api/v1/webhook/?token=moviepilot</Script>
+      <Parameters>/config/moviepilot_plugin/season_remove.json</Parameters>
       <MacroCommands />
       <Conditions>
         <EmbyScripterXActionCondition>

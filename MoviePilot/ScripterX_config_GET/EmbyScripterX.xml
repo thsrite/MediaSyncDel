@@ -40,7 +40,7 @@
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:get</Interpreter>
-      <Script>http://localhost:3000/emby?event_type=media_del&amp;media_type=%item.type%&amp;media_name=%item.name%&amp;media_path=%item.path%&amp;tmdb_id=%item.meta.tmdb%&amp;item_isvirtual=%item.isvirtual%</Script>
+      <Script>http://ip:port/api/v1/webhook/?token=moviepilot&Event=media_del&amp;item_type=%item.type%&amp;item_name=%item.name%&amp;item_path=%item.path%&amp;tmdb_id=%item.meta.tmdb%&amp;item_isvirtual=%item.isvirtual%</Script>
       <Parameters />
       <MacroCommands />
       <Conditions>
@@ -87,7 +87,7 @@
       <Enabled>false</Enabled>
       <ActionType>onMediaItemRemoved</ActionType>
       <Interpreter>web:get</Interpreter>
-      <Script>http://localhost:3000/emby?event_type=media_del&amp;media_type=%item.type%&amp;media_name=%series.name%&amp;media_path=%item.path%&amp;tmdb_id=%series.meta.tmdb%&amp;season_num=%season.number%&amp;episode_num=%episode.number%&amp;item_isvirtual=%item.isvirtual%</Script>
+      <Script>http://ip:port/api/v1/webhook/?token=moviepilot&Event=media_del&amp;item_type=%item.type%&amp;item_name=%series.name%&amp;item_path=%item.path%&amp;tmdb_id=%series.meta.tmdb%&amp;season_id=%season.number%&amp;episode_id=%episode.number%&amp;item_isvirtual=%item.isvirtual%</Script>
       <Parameters />
       <MacroCommands />
       <Conditions>
