@@ -1,0 +1,11 @@
+{
+  "Event": "media_del",
+  "item_type": "%item.type%",
+  "item_name": "%series.name%",
+  "item_path": "%item.path%",
+  "tmdb_id": "%series.meta.tmdb%",
+  "season_id": "%season.number%",
+  "episode_id": "%episode.number%",
+  "item_isvirtual": "%item.isvirtual%"
+}
+

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PluginOptions>
+    <Enabled>true</Enabled>
+    <onAuthenticationFailed_Enabled>false</onAuthenticationFailed_Enabled>
+    <onAuthenticationSuccess_Enabled>false</onAuthenticationSuccess_Enabled>
+    <onLibraryScanComplete_Enabled>false</onLibraryScanComplete_Enabled>
+    <onMediaItemAdded_Enabled>false</onMediaItemAdded_Enabled>
+    <onMediaItemAddedComplete_Enabled>false</onMediaItemAddedComplete_Enabled>
+    <onMediaItemRemoved_Enabled>true</onMediaItemRemoved_Enabled>
+    <onMediaItemUpdated_Enabled>false</onMediaItemUpdated_Enabled>
+    <onPlaybackStart_Enabled>false</onPlaybackStart_Enabled>
+    <onPlaybackStopped_Enabled>false</onPlaybackStopped_Enabled>
+    <onScheduledTask_Enabled>false</onScheduledTask_Enabled>
+    <onSessionEnded_Enabled>false</onSessionEnded_Enabled>
+    <onSessionStarted_Enabled>false</onSessionStarted_Enabled>
+    <onCameraImageUploaded_Enabled>false</onCameraImageUploaded_Enabled>
+    <onLiveTVRecordingStart_Enabled>false</onLiveTVRecordingStart_Enabled>
+    <onLiveTVRecordingEnded_Enabled>false</onLiveTVRecordingEnded_Enabled>
+    <onScheduledTaskStart_Enabled>false</onScheduledTaskStart_Enabled>
+    <onScheduledTaskEnded_Enabled>false</onScheduledTaskEnded_Enabled>
+    <onPlaybackProgress_Enabled>false</onPlaybackProgress_Enabled>
+    <onUserConfigurationUpdated_Enabled>false</onUserConfigurationUpdated_Enabled>
+    <onUserPasswordChanged_Enabled>false</onUserPasswordChanged_Enabled>
+    <onUserLockedOut_Enabled>false</onUserLockedOut_Enabled>
+    <onUserCreated_Enabled>false</onUserCreated_Enabled>
+    <onUserDeleted_Enabled>false</onUserDeleted_Enabled>
+    <onRecordingTimerCreated_Enabled>false</onRecordingTimerCreated_Enabled>
+    <onRecordingTimerCancelled_Enabled>false</onRecordingTimerCancelled_Enabled>
+    <onUserDataSaved_Enabled>false</onUserDataSaved_Enabled>
+  </PluginOptions>
+  <Actions_onAuthenticationFailed />
+  <Actions_onAuthenticationSuccess />
+  <Actions_onLibraryScanComplete />
+  <Actions_onMediaItemAdded />
+  <Actions_onMediaItemAddedComplete />
+  <Actions_onMediaItemRemoved>
+    <EmbyScripterXAction>
+      <ActionID>1dcbb3da-883b-4aca-952f-95183dbd3ab0</ActionID>
+      <Enabled>false</Enabled>
+      <ActionType>onMediaItemRemoved</ActionType>
+      <Interpreter>web:post</Interpreter>
+      <Script>http://192.168.31.103:3000/emby</Script>
+      <Parameters>/config/nastool_plugin/episode_remove.json</Parameters>
+      <MacroCommands />
+      <Conditions>
+        <EmbyScripterXActionCondition>
+          <Type>Token</Type>
+          <TokenID>%item.type%</TokenID>
+          <TokenGroup>Item</TokenGroup>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>Equals</Operator>
+          <Value>Equals</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>TEXTVALUE</Operator>
+          <Value>Episode</Value>
+        </EmbyScripterXActionCondition>
+      </Conditions>
+      <CmdParameters />
+    </EmbyScripterXAction>
+    <EmbyScripterXAction>
+      <ActionID>f34ea8fd-2b9e-40e2-85fa-186049281f62</ActionID>
+      <Enabled>false</Enabled>
+      <ActionType>onMediaItemRemoved</ActionType>
+      <Interpreter>web:post</Interpreter>
+      <Script>http://192.168.31.103:3000/emby</Script>
+      <Parameters>/config/nastool_plugin/movie_remove.json</Parameters>
+      <MacroCommands />
+      <Conditions>
+        <EmbyScripterXActionCondition>
+          <Type>Token</Type>
+          <TokenID>%item.type%</TokenID>
+          <TokenGroup>Item</TokenGroup>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>Equals</Operator>
+          <Value>Equals</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>TEXTVALUE</Operator>
+          <Value>Movie</Value>
+        </EmbyScripterXActionCondition>
+      </Conditions>
+      <CmdParameters />
+    </EmbyScripterXAction>
+    <EmbyScripterXAction>
+      <ActionID>eb9c2658-2b5e-429c-85d7-3abb49d82cf8</ActionID>
+      <Enabled>false</Enabled>
+      <ActionType>onMediaItemRemoved</ActionType>
+      <Interpreter>web:post</Interpreter>
+      <Script>http://192.168.31.103:3000/emby</Script>
+      <Parameters>/config/nastool_plugin/series_remove.json</Parameters>
+      <MacroCommands />
+      <Conditions>
+        <EmbyScripterXActionCondition>
+          <Type>Token</Type>
+          <TokenID>%item.type%</TokenID>
+          <TokenGroup>Item</TokenGroup>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>Equals</Operator>
+          <Value>Equals</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>TEXTVALUE</Operator>
+          <Value>Series</Value>
+        </EmbyScripterXActionCondition>
+      </Conditions>
+      <CmdParameters />
+    </EmbyScripterXAction>
+    <EmbyScripterXAction>
+      <ActionID>d69e0554-c948-4ca1-8852-93cb3c260cc6</ActionID>
+      <Enabled>false</Enabled>
+      <ActionType>onMediaItemRemoved</ActionType>
+      <Interpreter>web:post</Interpreter>
+      <Script>http://192.168.31.103:3000/emby</Script>
+      <Parameters>/config/nastool_plugin/season_remove.json</Parameters>
+      <MacroCommands />
+      <Conditions>
+        <EmbyScripterXActionCondition>
+          <Type>Token</Type>
+          <TokenID>%item.type%</TokenID>
+          <TokenGroup>Item</TokenGroup>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>Equals</Operator>
+          <Value>Equals</Value>
+        </EmbyScripterXActionCondition>
+        <EmbyScripterXActionCondition>
+          <Type>Operator</Type>
+          <Operator>TEXTVALUE</Operator>
+          <Value>Season</Value>
+        </EmbyScripterXActionCondition>
+      </Conditions>
+      <CmdParameters />
+    </EmbyScripterXAction>
+  </Actions_onMediaItemRemoved>
+  <Actions_onMediaItemUpdated />
+  <Actions_onPlaybackStart />
+  <Actions_onPlaybackStopped />
+  <Actions_onScheduledTask />
+  <Actions_onSessionEnded />
+  <Actions_onSessionStarted />
+  <Actions_onCameraImageUploaded />
+  <Actions_onLiveTVRecordingStart />
+  <Actions_onLiveTVRecordingEnded />
+  <Actions_onScheduledTaskStart />
+  <Actions_onScheduledTaskEnded />
+  <Actions_onPlaybackProgress />
+  <Actions_onUserConfigurationUpdated />
+  <Actions_onUserPasswordChanged />
+  <Actions_onUserLockedOut />
+  <Actions_onUserCreated />
+  <Actions_onUserDeleted />
+  <Actions_onRecordingTimerCreated />
+  <Actions_onRecordingTimerCancelled />
+  <Actions_onUserDataSaved />
+  <InstalledPackages />
+  <Server_Platform>LINUX</Server_Platform>
+</PluginConfiguration>
