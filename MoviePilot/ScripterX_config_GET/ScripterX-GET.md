@@ -6,7 +6,7 @@
 
 #### 1）删除电影或者整个剧集配置
 
-Run设置为你自己的nt地址:
+Run设置为你自己的mp地址:
 
 http://ip:port/api/v1/webhook/?token=moviepilot&Event=media_del&item_type=%item.type%&item_name=%item.name%&item_path=%item.path%&tmdb_id=%item.meta.tmdb%&item_isvirtual=%item.isvirtual%
 
@@ -18,9 +18,9 @@ Movie Series
 
 #### 2）删除剧集单季或者某集配置
 
-Run设置为你自己的nt地址:
+Run设置为你自己的mp地址:
 
-http://ip:port/api/v1/webhook/?token=moviepilot&Exemnt=media_del&item_type=%item.type%&item_name=%series.name%&item_path=%item.path%&tmdb_id=%series.meta.tmdb%&season_id=%season.number%&episode_id=%episode.number%&item_isvirtual=%item.isvirtual%
+http://ip:port/api/v1/webhook/?token=moviepilot&Event=media_del&item_type=%item.type%&item_name=%series.name%&item_path=%item.path%&tmdb_id=%series.meta.tmdb%&season_id=%season.number%&episode_id=%episode.number%&item_isvirtual=%item.isvirtual%
 
 using选择web:get
 
