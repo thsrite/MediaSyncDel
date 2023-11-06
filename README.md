@@ -1,23 +1,23 @@
-# emby_sync_del_nt
+# emby_sync_del
 
 
-## [高级玩法](https://github.com/thsrite/emby_sync_del_nt/blob/main/advanced.md)
+## [高级玩法](https://github.com/thsrite/MediaSyncDelt/blob/main/advanced.md)
 
-## [入库直接触发删除问题](https://github.com/thsrite/emby_sync_del_nt/blob/main/issues.md)
+## [入库直接触发删除问题](https://github.com/thsrite/MediaSyncDel/blob/main/issues.md)
 
 ## 1.emby安装[ScripterX插件](https://github.com/AnthonyMusgrove/Emby-ScripterX)
 
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/54088512/227704280-0238b261-c0f4-4676-8acb-71c586ad4695.png">
 
 ### 插件手动下载，放入/plugins/重启emby
-[3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/emby_sync_del_nt/raw/main/NAStool/ScripterX3/EmbyScripterX.dll)
+[3.0.5.5插件防自动升级版本下载（dmdy123提供）](https://github.com/thsrite/MediaSyncDel/raw/main/NAStool/ScripterX3/EmbyScripterX.dll)
 
-[4.0.0.8插件下载](https://github.com/thsrite/emby_sync_del_nt/raw/main/NAStool/ScripterX4/EmbyScripterX.dll)
+[4.0.0.8插件下载](https://github.com/thsrite/MediaSyncDel/raw/main/NAStool/ScripterX4/EmbyScripterX.dll)
 
 
 ## 2.插件配置
-### [NAStool](https://github.com/thsrite/emby_sync_del_nt/blob/main/NAStool/NAStool.md)
-### [MoviePilot](https://github.com/thsrite/emby_sync_del_nt/blob/main/MoviePilot/MoviePilot.md)
+### [NAStool](https://github.com/thsrite/MediaSyncDel/blob/main/NAStool/NAStool.md)
+### [MoviePilot](https://github.com/thsrite/MediaSyncDel/blob/main/MoviePilot/MoviePilot.md)
 ### 可用版本（其他自行测试，欢迎补充）
 | Emby                 | Scripter X | GET OR POST |
 |----------------------|------------|-------------|
