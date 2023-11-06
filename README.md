@@ -1,7 +1,7 @@
-# emby_sync_del
+# MediaSyncDel
 
 
-## [高级玩法](https://github.com/thsrite/MediaSyncDelt/blob/main/advanced.md)
+## [高级玩法](https://github.com/thsrite/MediaSyncDel/blob/main/advanced.md)
 
 ## [入库直接触发删除问题](https://github.com/thsrite/MediaSyncDel/blob/main/issues.md)
 
