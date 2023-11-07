@@ -1,5 +1,6 @@
 # MediaSyncDel
 
+## [路径映射](https://github.com/thsrite/MediaSyncDel/blob/main/path.md)
 
 ## [高级玩法](https://github.com/thsrite/MediaSyncDel/blob/main/advanced.md)
 
